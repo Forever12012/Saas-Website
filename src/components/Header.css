@@ -1,0 +1,20 @@
+/* General styles for the company logo text */
+.company-logo-text {
+  display: none; /* Hide by default */
+  font-size: 16px; /* Adjust size as needed */
+  color: #000; /* Adjust color as needed */
+  margin-left: 10px; /* Space between icon and text */
+}
+
+/* Show the company logo text only on mobile screens */
+@media (max-width: 768px) {
+  .company-logo-text {
+    display: inline-block;
+  }
+}
+
+/* Ensure proper alignment in mobile view */
+.menu-extras .menu-item {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script
+      type="text/javascript"
+      src="https://checkout.razorpay.com/v1/razorpay.js"
+    ></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="%PUBLIC_URL%/assets/images/favicon.ico" />
+
+    <!-- Css -->
+    <link
+      href="%PUBLIC_URL%/assets/libs/tiny-slider/tiny-slider.css"
+      rel="stylesheet"
+    />
+    <link
+      href="%PUBLIC_URL%/assets/libs/tobii/css/tobii.min.css"
+      rel="stylesheet"
+    />
+    <!-- Main Css -->
+    <link
+      href="%PUBLIC_URL%/assets/libs/%40iconscout/unicons/css/line.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <link
+      href="%PUBLIC_URL%/assets/libs/%40mdi/font/css/materialdesignicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/tailwind.min.css" />
+    <script
+      src="https://app.livechatai.com/embed.js"
+      data-id="clx6laurd000c58yotq8e9w7n"
+      async
+      defer
+    ></script>
+  </head>
+  <body
+    class="font-nunito text-base text-black dark:text-white dark:bg-slate-900"
+  >
+    <!-- Loader Start -->
+    <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+    <!-- Loader End -->
+
+    <!-- Start Navbar -->
+    <div id="root"></div>
+    <!-- Navbar -->
+    <!--end header-->
+    <!-- End Navbar -->
+
+    <!-- Carousel -->
+    <!-- Start Hero -->
+
+    <!--end section-->
+    <!-- End Hero -->
+
+    <!-- Company Names -->
+    <!-- Start -->
+
+    <!--end section-->
+    <!-- End -->
+
+    <!-- Business -->
+    <!-- Start -->
+
+    <!--end section-->
+    <!-- End -->
+
+    <!-- Money on the table -->
+    <!-- Start -->
+
+    <!--end section-->
+    <!-- End -->
+
+    <!-- Pricing Plans -->
+    <!-- Start Section-->
+
+    <!--end section-->
+    <!-- End -->
+
+    <!-- Footer Start -->
+
+    <!--end footer-->
+    <!-- Footer End -->
+
+    <!-- Start Cookie Popup -->
+
+    <!--Note: Cookies Js including in plugins.init.js (path like; %PUBLIC_URL%/assets/js/plugins.init.js) and Cookies css including in _helper.scss (path like; scss/_helper.scss)-->
+    <!-- End Cookie Popup -->
+
+    <!-- Back to top -->
+    <a
+      href="#"
+      onclick="topFunction()"
+      id="back-to-top"
+      class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 end-5 size-9 text-center bg-indigo-600 text-white leading-9"
+      ><i class="uil uil-arrow-up"></i
+    ></a>
+    <!-- Back to top -->
+
+    <!-- Switcher -->
+    <div class="fixed top-[30%] -right-2 z-50">
+      <span class="relative inline-block rotate-90">
+        <input type="checkbox" class="checkbox opacity-0 absolute" id="chk" />
+        <label
+          class="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8"
+          for="chk"
+        >
+          <i class="uil uil-moon text-[20px] text-yellow-500"></i>
+          <i class="uil uil-sun text-[20px] text-yellow-500"></i>
+          <span
+            class="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] size-7"
+          ></span>
+        </label>
+      </span>
+    </div>
+    <!-- Switcher -->
+
+    <!-- LTR & RTL Mode Code -->
+    <div class="fixed top-[40%] -right-3 z-50">
+      <a href="#" id="switchRtl">
+        <span
+          class="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-bold rtl:block ltr:hidden"
+          >LTR</span
+        >
+        <span
+          class="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-bold ltr:block rtl:hidden"
+          >RTL</span
+        >
+      </a>
+    </div>
+    <!-- LTR & RTL Mode Code -->
+
+    <!-- JAVASCRIPTS -->
+    <script src="%PUBLIC_URL%/assets/libs/tiny-slider/min/tiny-slider.js"></script>
+    <script src="%PUBLIC_URL%/assets/libs/tobii/js/tobii.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/libs/feather-icons/feather.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/plugins.init.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/app.js"></script>
+    <!-- <button id="rzp-button1">Pay</button>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+      var options = {
+        key: "rzp_test_VkFrPqmGq2WFAh", // Enter the Key ID generated from the Dashboard
+        amount: "1", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+        currency: "INR",
+        name: "Tushar Corp", //your business name
+        description: "Test Transaction",
+        image: "https://example.com/your_logo",
+        order_id: "order_9A33XWu170gUtm", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+        handler: function (response) {
+          alert(response.razorpay_payment_id);
+          alert(response.razorpay_order_id);
+          alert(response.razorpay_signature);
+        },
+        prefill: {
+          //We recommend using the prefill parameter to auto-fill customer's contact information, especially their phone number
+          name: "Gaurav Kumar", //your customer's name
+          email: "gaurav.kumar@example.com",
+          contact: "9000090000", //Provide the customer's phone number for better conversion rates
+        },
+        notes: {
+          address: "Razorpay Corporate Office",
+        },
+        theme: {
+          color: "#3399cc",
+        },
+      };
+      var rzp1 = new Razorpay(options);
+      rzp1.on("payment.failed", function (response) {
+        alert(response.error.code);
+        alert(response.error.description);
+        alert(response.error.source);
+        alert(response.error.step);
+        alert(response.error.reason);
+        alert(response.error.metadata.order_id);
+        alert(response.error.metadata.payment_id);
+      });
+      document.getElementById("rzp-button1").onclick = function (e) {
+        rzp1.open();
+        e.preventDefault();
+      };
+    </script> -->
+    <!-- JAVASCRIPTS -->
+  </body>
+</html>
